@@ -44,3 +44,21 @@ The following python libraries are required to run the notebooks:
 	> Amazon's AWS SageMaker: to build, train, and deploy the model
 	> PyTorn: to build the LSTM classifier 
 	> Others: Numpy, Scikit-learn, pandas, os, json, maths etc. (check the python scripts).
+	> 
+
+<a name="results_summary"></a>
+## Results Summary
+
+I have used the LSTM from PyTorch to train the recurrent neural network model classifier and deploy the model with a web app using AWS SageMaker tool. The final web app and the results are shown below:
+
+
+<a name="license"></a>
+## License
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+
+<a name="acknowledgement"></a>
+## Acknowledgement
+* We want to thank [Udacity](https://www.udacity.com/) for this project.
+
+
