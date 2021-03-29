@@ -14,13 +14,13 @@
 ## Project Overview
 In this project a recurrent neural network is constructed for the purpose of determining the sentiment of a movie review using the IMDB data set. The model is created using Amazon's SageMaker service. In addition, the model is deployed and a simple web app is constructed which will interact with the deployed model. Following steps are carried out in the notebook for the execution of the project.
               
-	        1. Download or otherwise retrieve the data.
-               2. Process / Prepare the data.
-               3. Upload the processed data to S3.
-               4. Train a chosen model.
-               5. Test the trained model (typically using a batch transform job).
-               6. Deploy the trained model.
-               7. Use the deployed model.
+	       1.  Download or otherwise retrieve the data.
+               2.  Process / Prepare the data.
+               3.  Upload the processed data to S3.
+               4.  Train a chosen model.
+               5.  Test the trained model (typically using a batch transform job).
+               6.  Deploy the trained model.
+               7.  Use the deployed model.
 
 <a name="files_descriptions"></a>
 ## Files Descriptions
@@ -28,7 +28,7 @@ In this project a recurrent neural network is constructed for the purpose of det
 The enitre process adopted are carried out in one notebook and other supporting python scripts for the model deployment and web app.
     
         1.  SageMaker Project.ipynb: The main notebook for the exeution of the project .
-        2.  train/train.py: Data cleaning and feature engineering is carried out in this notebook.
+        2.  train/train.py, train/model.py, and train/requirements.txt: python scripts to train the model
         3.  EDA.ipynb: Exploratory data analysis of the cleaned data is carried out in this notebook.
         4.  Data_modeling: Data scaling and machine learning models are trained in this notebook
         
