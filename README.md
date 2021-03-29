@@ -52,10 +52,10 @@ The following python libraries are required to run the notebooks:
 I have used the LSTM from PyTorch to train the recurrent neural network model classifier and deploy the model with a web app using AWS SageMaker tool. The final web app and the results are shown below:
 
     1. Positive review predicted by the app.
-    ![Positive Review](positive.png)     
+   ![Positive Review](positive.png)     
 
     2. Negative review predicted by the app.
-    ![Negative Review](negative.png)  
+   ![Negative Review](negative.png)  
 
 
 <a name="license"></a>
