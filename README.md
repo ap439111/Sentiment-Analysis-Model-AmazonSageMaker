@@ -14,7 +14,7 @@
 ## Project Overview
 In this project a recurrent neural network is constructed for the purpose of determining the sentiment of a movie review using the IMDB data set. The model is created using Amazon's SageMaker service. In addition, the model is deployed and a simple web app is constructed which will interact with the deployed model. Following steps are carried out in the notebook for the execution of the project.
               
-	       1. Download or otherwise retrieve the data.
+	        1. Download or otherwise retrieve the data.
                2. Process / Prepare the data.
                3. Upload the processed data to S3.
                4. Train a chosen model.
