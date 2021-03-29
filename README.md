@@ -41,10 +41,6 @@ Step-by-step description of the entire process adopted in the project is explain
 
 The following python libraries are required to run the notebooks:
         
-	> Pandas
-	> Numpy
-	> Scikit-learn
-	> Keras
-	> Matplotlib
-	> Seaborn
-	> json, maths, timeit
+	> Amazon's AWS SageMaker: to build, train, and deploy the model
+	> PyTorn: to build the LSTM classifier 
+	> Others: Numpy, Scikit-learn, pandas, os, json, maths etc. (check the python scripts).
