@@ -28,13 +28,13 @@ In this project a recurrent neural network is constructed for the purpose of det
 The enitre process adopted are carried out in one notebook and other supporting python scripts for the model deployment and web app.
     
         1.  SageMaker Project.ipynb: The main notebook for the exeution of the project .
-        2.  train/train.py, train/model.py, and train/requirements.txt: python scripts to train the model
-        3.  EDA.ipynb: Exploratory data analysis of the cleaned data is carried out in this notebook.
-        4.  Data_modeling: Data scaling and machine learning models are trained in this notebook
+        2.  train/train.py, train/model.py, and train/requirements.txt: python scripts and a text file to train the model
+        3.  serve/model.py, serve/predict.py, serve/utils.py, and serve/requirements.txt: python scripts and text file to predict.
+        4.  website/index.html: html file for web app
         
-        The data files are explained in details in the notebooks as well as in the project_capstone.pdf file.
+        The data files are explained in details in the notebook.
 
-Step-by-step description of the entire process adopted in the project is explained in the file **project_capstone.pdf** and a [bolgpost](https://anup-pandey123.medium.com/starbucks-capstone-challenge-4a763b207985).
+Step-by-step description of the entire process adopted in the project is explained in the file ** SageMaker Project.ipynb **.
 
 <a name="python_libraries"></a>
 ## Python Libraries
